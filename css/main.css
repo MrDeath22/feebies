@@ -58,3 +58,23 @@ body {
    top: 2px;
    left: 2px;
 }
+
+.input-gender input {
+   display: none;
+}
+
+.gender-before::before {
+   width: 26px;
+   height: 26px;
+   display: inline-block;
+   content: "";
+   background-repeat: no-repeat;
+}
+
+.male::before {
+   background-image: url(../img/male.svg);
+}
+
+.female::before {
+   background-image: url(../img/female.svg);
+}
