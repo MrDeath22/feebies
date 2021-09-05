@@ -1,0 +1,60 @@
+body {
+   font-family: 'Raleway', sans-serif;
+   color: #383838;
+   background-color: #F7F7F7;
+}
+
+.before-all::before {
+   display: inline-block;
+   content: "";
+   background-repeat: no-repeat;
+}
+
+.main-div {
+   width: 680px;
+   height: 446px;
+   margin: 0 auto;
+   margin-top: 10%;
+   border-radius: 21px;
+   background-color: #fff;
+}
+
+.main-title {
+   background-color: #FFD500;
+   padding: 60px;
+   border-radius: 21.25px 0px 0px 21.25px;
+}
+
+.main-title h2 {
+   font-size: 18px;
+   line-height: 21px;
+   margin-bottom: 10px;
+}
+
+.main-title p {
+   font-size: 11px;
+   line-height: 14px;
+   margin-bottom: 35px;
+}
+
+.title-before::before {
+   width: 120px;
+   height: 120px;
+   margin-bottom: 57px;
+   background-image: url(../img/logo.svg);
+}
+
+.title-btn {
+   top: 10px;
+   width: 31px;
+   height: 31px;
+   border: none;
+   border-radius: 50%;
+   background-color: #383838;
+}
+
+.title-btn img {
+   position: relative;
+   top: 2px;
+   left: 2px;
+}
